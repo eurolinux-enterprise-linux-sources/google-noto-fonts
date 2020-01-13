@@ -8,7 +8,7 @@ in Unicode.
 
 Name:           %{fontname}-fonts
 Version:        20130807
-Release:        2%{?dist}
+Release:        1%{?dist}
 Summary:        Hinted and Unhinted open type fonts for Unicode scripts
 Group:          User Interface/X
 License:        ASL 2.0
@@ -1019,9 +1019,6 @@ done
 
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 20130807-2
-- Mass rebuild 2013-12-27
-
 * Mon Oct 28 2013 Pravin Satpute <psatpute@redhat.com> - 20130807-1
 - Resolves: rh#1023312 Upstream new release of 20130807 tarball.
 - Packages unhinted upstream tarball.
